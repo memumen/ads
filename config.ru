@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
-require_relative 'config/enviroment'
+require_relative 'config/environment'
 
-run Application
+map '/ads' do
+  run Application
+end
