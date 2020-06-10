@@ -2,7 +2,7 @@
 
 # ApplicationLoader
 module ApplicationLoader
-  module_function
+  extend self
 
   def load_app!
     require_app
